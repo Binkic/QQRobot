@@ -237,6 +237,25 @@
 - 测试中的功能。尚有缺陷。
 - <img src="https://wx1.sinaimg.cn/large/8ddab624ly1fwzu4luz6oj20f00f0q3k.jpg" width="240"/>
 
+## !Shop
+- 描述 : 商店系统  
+- 默认权限组 : 群员
+- 别名 : 商店
+- 权限 : `essential.shop.use`
+- 用法 : 
+1. `!shop`
+	- 描述 : 查看商店列表第一面
+	- 默认权限组 : 群员
+	- 权限 : `essential.shop.list`
+2. `!shop page [页码]`
+	- 描述 : 查看商店列表特定页面
+	- 默认权限组 : 群员
+	- 权限 : `essential.shop.list`
+3. `!shop buy [物品编号] [数量]`
+	- 描述 : 购买指定数量的给定物品编号的物品
+	- 默认权限组 : 群员
+	- 权限 : `essential.shop.buy`
+
 ## !Inventory
 - 描述 : 背包系统  
 - 默认权限组 : 群员  
@@ -290,8 +309,7 @@
 
 
 ## !api
-- 描述 : 机器人API工具【使用本功能暂时需要群里的机器人为 梦想码头一号智能姬】
-开发文档日后再编辑
+- 描述 : 机器人API工具
 - 默认权限组 : 群主
 - 权限 : `essential.api.use`
 - 用法 : 
